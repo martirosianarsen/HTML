@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML attributes</title>
+    <style>
+        :root {
+            font-size: 16px;
+            scroll-behavior: smooth;
+        }
+
+        table {
+            border: 1px solid gray;
+        }
+
+        th,
+        td {
+            border: 1px solid gray;
+            padding: 10px;
+        }
+
+        header {
+            text-align: center;
+        }
+
+        #lorem {
+            color: brown;
+        }
+
+        .style {
+            font-weight: bold;
+        }
+
+        .style:hover {
+            background-color: bisque;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Attributes - <small>Ատրիբուտներ, հատկանիշներ</small></h1>
+        <p>
+            HTML էլեմենտների հատկանիշները և հատկանիշներին վերագրվող արժեքները։
+        </p>
+    </header>
+
+    <dl style="font-size: 12px; color:red">
+        <dt>* (աստղանիշ)</dt>
+        <dd>ցանկացած</dd>
+    </dl>
+
+    <section>
+        <h2>Global Attributes <small>(Ընդհանուր հատկանիշներ)</small></h2>
+        <p>Ընդհանուր հատկանիշները կարող են կիրառվել, գրեթե բոլոր <b>HTML element</b>-ների վրա։</p>
+        <p>
+            <i>Որոշ դեպքերում, չնայած֊որ՝ կարելի է կիրառել, սակայն՝ կարող է անիմաստ լինել։ Օրինակ՝ հենց "html tag"֊ի
+                դեպքում,
+                արգելված չէ կիրառել "id, class" attribute-ները, սակայն գործնականում, հազվադեպ հանդիպող երևույթ է։</i>
+        </p>
+        <table>
+            <thead>
+                <tr>
+                    <td>Անվանում</td>
+                    <td>Բացատրություն</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>id</td>
+                    <td>իդենտիֆիկատոր, նույնականացուցիչ</td>
+                </tr>
+                <tr>
+                    <td>class</td>
+                    <td>դասակարգիչ, դաս, խմբավորել, դասակարգել</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section>
+        <h2>Input element attributes <small>(Մուտքագրման մասնիկի հատկանիշները)</small></h2>
+        <p>
+            Մուտքագրման դաշտի (&lt;input&gt;), <b>type</b> արժեքից կախված, կաորող է փոփոխվել տվյալ դաշտի հատկանիշները:
+            Աղյուսակում ցուցադրված է, թե տվյալ հատկանիշը, որ տեսակների հետ է՝ կարող օգտագործվել։
+        </p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Հատկանիշ (attribute)</th>
+                    <th>Տեսակ (type)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>id</td>
+                    <td>*</td>
+                </tr>
+                <tr>
+                    <td>class</td>
+                    <td>*</td>
+                </tr>
+                <tr>
+                    <td>name (անուն)</td>
+                    <td>*</td>
+                </tr>
+                <tr>
+                    <td>type (տեսակ, տիպ)</td>
+                    <td>*</td>
+                </tr>
+                <tr>
+                    <td>value (արժեք)</td>
+                    <td>*</td>
+                </tr>
+                <tr>
+                    <td>placeholder (տեղապահ)</td>
+                    <td>text, number, password</td>
+                </tr>
+                <tr>
+                    <td>min (նվազագույն)</td>
+                    <td>number, range</td>
+                </tr>
+                <tr>
+                    <td>max (առավելագույն)</td>
+                    <td>number, range</td>
+                </tr>
+                <tr>
+                    <td>minlength (նվազագույն երկարություն` քանակ)</td>
+                    <td>text, password</td>
+                </tr>
+                <tr>
+                    <td>maxlength (առավելագույն երկարություն` քանակ)</td>
+                    <td>text, password</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+</body>
+
+</html>
